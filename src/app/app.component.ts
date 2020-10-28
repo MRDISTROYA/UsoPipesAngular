@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
+  texto : string;
+  letrasAlternadas : string;
+  numero : number;
+  fechas = new Date(2020, 7, 1, 18, 36);
 }
+ 
